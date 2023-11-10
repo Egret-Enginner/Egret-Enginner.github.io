@@ -2,162 +2,162 @@
 	"groups": [
 		{
 			"keys": "Bgm_001_mp3,Button_001_mp3,ButtonCannon_001_mp3,ButtonSpecial_001_mp3,CannonBulletHit_001_mp3,CannonBullet_001_mp3,CannonBullet_002_mp3,CannonBullet_003_mp3,CannonBullet_004_mp3,CannonFlame_001_mp3,CannonLaserHit_001_mp3,CannonLaser_001_mp3,CannonLocking_001_mp3,CannonNuclear_001_mp3,CannonSwitch_001_mp3,CannonSwitch_002_mp3,MoneyBig_001_mp3,MoneySmall_001_mp3,RemindBoss_001_mp3,RemindFishWaves_001_mp3,RemindSpecial_001_mp3,WinBoss_001_mp3,WinFish_001_mp3,WinFish_002_mp3,WinFish_003_mp3,WinSpecial_001_mp3,BgmBoss_001_mp3,BgmFish_001_mp3,RemindFish_001_mp3,ShootNuclear_mp3,Click_mp3",
-			"name": "audio"
+			"name": "Audio"
 		}
 	],
 	"resources": [
 		{
-			"url": "audio/bgm/Bgm_001.mp3",
+			"url": "Audio/BGM/Bgm_001.mp3",
 			"type": "sound",
 			"name": "Bgm_001_mp3"
 		},
 		{
-			"url": "audio/sound/Button_001.mp3",
+			"url": "Audio/Sound/Button_001.mp3",
 			"type": "sound",
 			"name": "Button_001_mp3"
 		},
 		{
-			"url": "audio/sound/ButtonCannon_001.mp3",
+			"url": "Audio/Sound/ButtonCannon_001.mp3",
 			"type": "sound",
 			"name": "ButtonCannon_001_mp3"
 		},
 		{
-			"url": "audio/sound/ButtonSpecial_001.mp3",
+			"url": "Audio/Sound/ButtonSpecial_001.mp3",
 			"type": "sound",
 			"name": "ButtonSpecial_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonBulletHit_001.mp3",
+			"url": "Audio/Sound/CannonBulletHit_001.mp3",
 			"type": "sound",
 			"name": "CannonBulletHit_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonBullet_001.mp3",
+			"url": "Audio/Sound/CannonBullet_001.mp3",
 			"type": "sound",
 			"name": "CannonBullet_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonBullet_002.mp3",
+			"url": "Audio/Sound/CannonBullet_002.mp3",
 			"type": "sound",
 			"name": "CannonBullet_002_mp3"
 		},
 		{
-			"url": "audio/sound/CannonBullet_003.mp3",
+			"url": "Audio/Sound/CannonBullet_003.mp3",
 			"type": "sound",
 			"name": "CannonBullet_003_mp3"
 		},
 		{
-			"url": "audio/sound/CannonBullet_004.mp3",
+			"url": "Audio/Sound/CannonBullet_004.mp3",
 			"type": "sound",
 			"name": "CannonBullet_004_mp3"
 		},
 		{
-			"url": "audio/sound/CannonFlame_001.mp3",
+			"url": "Audio/Sound/CannonFlame_001.mp3",
 			"type": "sound",
 			"name": "CannonFlame_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonLaserHit_001.mp3",
+			"url": "Audio/Sound/CannonLaserHit_001.mp3",
 			"type": "sound",
 			"name": "CannonLaserHit_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonLaser_001.mp3",
+			"url": "Audio/Sound/CannonLaser_001.mp3",
 			"type": "sound",
 			"name": "CannonLaser_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonLocking_001.mp3",
+			"url": "Audio/Sound/CannonLocking_001.mp3",
 			"type": "sound",
 			"name": "CannonLocking_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonNuclear_001.mp3",
+			"url": "Audio/Sound/CannonNuclear_001.mp3",
 			"type": "sound",
 			"name": "CannonNuclear_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonSwitch_001.mp3",
+			"url": "Audio/Sound/CannonSwitch_001.mp3",
 			"type": "sound",
 			"name": "CannonSwitch_001_mp3"
 		},
 		{
-			"url": "audio/sound/CannonSwitch_002.mp3",
+			"url": "Audio/Sound/CannonSwitch_002.mp3",
 			"type": "sound",
 			"name": "CannonSwitch_002_mp3"
 		},
 		{
-			"url": "audio/sound/MoneyBig_001.mp3",
+			"url": "Audio/Sound/MoneyBig_001.mp3",
 			"type": "sound",
 			"name": "MoneyBig_001_mp3"
 		},
 		{
-			"url": "audio/sound/MoneySmall_001.mp3",
+			"url": "Audio/Sound/MoneySmall_001.mp3",
 			"type": "sound",
 			"name": "MoneySmall_001_mp3"
 		},
 		{
-			"url": "audio/sound/RemindBoss_001.mp3",
+			"url": "Audio/Sound/RemindBoss_001.mp3",
 			"type": "sound",
 			"name": "RemindBoss_001_mp3"
 		},
 		{
-			"url": "audio/sound/RemindFishWaves_001.mp3",
+			"url": "Audio/Sound/RemindFishWaves_001.mp3",
 			"type": "sound",
 			"name": "RemindFishWaves_001_mp3"
 		},
 		{
-			"url": "audio/sound/RemindSpecial_001.mp3",
+			"url": "Audio/Sound/RemindSpecial_001.mp3",
 			"type": "sound",
 			"name": "RemindSpecial_001_mp3"
 		},
 		{
-			"url": "audio/sound/WinBoss_001.mp3",
+			"url": "Audio/Sound/WinBoss_001.mp3",
 			"type": "sound",
 			"name": "WinBoss_001_mp3"
 		},
 		{
-			"url": "audio/sound/WinFish_001.mp3",
+			"url": "Audio/Sound/WinFish_001.mp3",
 			"type": "sound",
 			"name": "WinFish_001_mp3"
 		},
 		{
-			"url": "audio/sound/WinFish_002.mp3",
+			"url": "Audio/Sound/WinFish_002.mp3",
 			"type": "sound",
 			"name": "WinFish_002_mp3"
 		},
 		{
-			"url": "audio/sound/WinFish_003.mp3",
+			"url": "Audio/Sound/WinFish_003.mp3",
 			"type": "sound",
 			"name": "WinFish_003_mp3"
 		},
 		{
-			"url": "audio/sound/WinSpecial_001.mp3",
+			"url": "Audio/Sound/WinSpecial_001.mp3",
 			"type": "sound",
 			"name": "WinSpecial_001_mp3"
 		},
 		{
-			"url": "audio/bgm/BgmBoss_001.mp3",
+			"url": "Audio/BGM/BgmBoss_001.mp3",
 			"type": "sound",
 			"name": "BgmBoss_001_mp3"
 		},
 		{
-			"url": "audio/bgm/BgmFish_001.mp3",
+			"url": "Audio/BGM/BgmFish_001.mp3",
 			"type": "sound",
 			"name": "BgmFish_001_mp3"
 		},
 		{
-			"url": "audio/sound/RemindFish_001.mp3",
+			"url": "Audio/Sound/RemindFish_001.mp3",
 			"type": "sound",
 			"name": "RemindFish_001_mp3"
 		},
 		{
-			"url": "audio/sound/ShootNuclear.mp3",
+			"url": "Audio/Sound/ShootNuclear.mp3",
 			"type": "sound",
 			"name": "ShootNuclear_mp3"
 		},
 		{
-			"url": "audio/sound/Click.mp3",
+			"url": "Audio/Sound/Click.mp3",
 			"type": "sound",
 			"name": "Click_mp3"
 		}

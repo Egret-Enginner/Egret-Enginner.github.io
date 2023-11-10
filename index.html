@@ -1,61 +1,104 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Egret</title><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="full-screen" content="true"/><meta name="screen-orientation" content="portrait"/><meta name="x5-fullscreen" content="true"/><meta name="360-fullscreen" content="true"/><style>html, body {
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <link rel="preload" href="./resource/Html/FZZhunYuan-M02S.TTF" as="font" crossorigin>
+    <link rel="shortcut icon" href="./resource/Html/WebIcon.jpg" type="image/x-icon"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <meta HTTP-EQUIV="Pragma" content="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" content="no-cache,no-store,must-revalidate">
+    <meta HTTP-EQUIV="Expires" content="0">
+    <meta HTTP-EQUIV="cache" content="no-cache">
+    <style>
+
+        *
+        {
+            cursor: url("./resource/Html/Cursor.png"), default;
+        }
+        @font-face {
+            font-family: "FZZhunYuan-M02S";
+            src: url("./resource/Html/FZZhunYuan-M02S.TTF");
+        }
+        html, body {
             -ms-touch-action: none;
-            background: #888888;
+            background: #000000;
             padding: 0;
             border: 0;
             margin: 0;
             height: 100%;
-        }</style></head><body><div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="noBorder" data-frame-rate="60" data-content-width="1280" data-content-height="720" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="true" data-show-log="true" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div><script>var loadScript = function (list, callback) {
-        var loaded = 0;
-        var loadNext = function () {
-            loadSingleScript(list[loaded], function () {
-                loaded++;
-                if (loaded >= list.length) {
-                    callback();
-                }
-                else {
-                    loadNext();
-                }
-            })
-        };
-        loadNext();
-    };
+        }
+        .BackgroundImage
+        {
+            z-index: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            -webkit-user-select:none;
+            -moz-user-select:none;
+            -o-user-select:none;
+            user-select:none;
+        }
+        #PreloadIcon
+        {
+            z-index: 2;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color:  #000000;
+            display:  flex;
+            align-items: center;
+            justify-content:  center;
+        }
 
-    var loadSingleScript = function (src, callback) {
-        var s = document.createElement('script');
-        s.async = false;
-        s.src = src;
-        s.addEventListener('load', function () {
-            s.parentNode.removeChild(s);
-            s.removeEventListener('load', arguments.callee, false);
-            callback();
-        }, false);
-        document.body.appendChild(s);
-    };
+        #LogMsg
+        {
+            z-index: 10;
+            position: absolute;
+            width: 100%;
+            height: 20%;
+            /*background-color: rgba(0, 0, 0, 0.5);*/
+            color: #fff;
+            margin: 5px;
+            pointer-events:none; /* 解決無法觸發click事件 */
+        }
+    </style>
+</head>
 
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
-    xhr.addEventListener("load", function () {
-        var manifest = JSON.parse(xhr.response);
-        var list = manifest.initial.concat(manifest.game);
-        loadScript(list, function () {
-            /**
-             * {
-             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
-             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
-             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
-             * "calculateCanvasScaleFactor": //a function return canvas scale factor
-             * }
-             **/
-            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
-                var backingStore = context.backingStorePixelRatio ||
-                    context.webkitBackingStorePixelRatio ||
-                    context.mozBackingStorePixelRatio ||
-                    context.msBackingStorePixelRatio ||
-                    context.oBackingStorePixelRatio ||
-                    context.backingStorePixelRatio || 1;
-                return (window.devicePixelRatio || 1) / backingStore;
-            }});
-        });
-    });
-    xhr.send(null);</script></body></html>
+<body>
+    <div id="Values" style="top: 100px; left: 100px; width: 100%; height: 100%; display: none;"> </div>
+
+    <div class="BackgroundImage">
+        <!--<img src="./resource/Html/BackgroundImage.jpg" style="margin: auto; width: 100%; height: 100%; object-fit: cover;">-->
+    </div>
+
+    <div id="PreloadIcon">
+        <img src="./resource/Html/LoadingIcon.gif">
+    </div>
+
+    <div style="margin: auto; width: 100%; height: 100%; z-Index: 1;" id = "Egret" class="egret-player"
+         data-entry-class="AppMain"
+         data-orientation="auto"
+         data-scale-mode="noBorder"
+         data-frame-rate="60"
+         data-content-width="1280"
+         data-content-height="720"
+         data-fit-width-ratio="16"
+         data-fit-height-ratio="9"
+         data-show-paint-rect="false"
+         data-multi-fingered="1"
+         data-show-fps="false" data-show-log="true"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    
+    <script type="text/javascript" src="./app.bundle.js"></script>
+    </body>
+
+</html>
