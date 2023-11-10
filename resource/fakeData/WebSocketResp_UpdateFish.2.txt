@@ -1,0 +1,154 @@
+{
+   "OpCode": "UpdateFish",
+   "ErrorCode": "Success",
+   "Data": {
+      "AddFish": [
+         {
+            "FishID": "52",
+            "FSType": 20,
+            "X": 1592,
+            "Y": 386,
+            "Angle": 180,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         },
+         {
+            "FishID": "51",
+            "FSType": 20,
+            "X": -312,
+            "Y": 386,
+            "Angle": 0,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         },
+         {
+            "FishID": "1",
+            "FSType": 21,
+            "X": 1592,
+            "Y": 286,
+            "Angle": 180,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         },
+         {
+            "FishID": "2",
+            "FSType": 21,
+            "X": -312,
+            "Y": 286,
+            "Angle": 0,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         },
+         {
+            "FishID": "3",
+            "FSType": 4,
+            "X": 1592,
+            "Y": 186,
+            "Angle": 180,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         },
+         {
+            "FishID": "4",
+            "FSType": 4,
+            "X": -312,
+            "Y": 186,
+            "Angle": 0,
+            "Speed": 3.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCount": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 10000,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 3.2,
+                  "iRunFunType": 0
+               }
+            ]
+         }
+      ],
+      "DieOrRemoveFish": [],
+      "HitUpdateBalance": []
+   }
+}

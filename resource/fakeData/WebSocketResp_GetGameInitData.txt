@@ -1,0 +1,283 @@
+{
+   "OpCode": "GetGameInitDataResult",
+   "Data": {
+      "FixedTimeMS": 32,
+      "BackGroundID": 0,
+      "AddFish": [],
+      "FishGroup": [
+         {
+            "FSType": 1,
+            "Group": 0,
+            "MinOdd": [
+               9
+            ],
+            "MaxOdd": [
+               9
+            ]
+         },
+         {
+            "FSType": 2,
+            "Group": 0,
+            "MinOdd": [
+               7
+            ],
+            "MaxOdd": [
+               7
+            ]
+         },
+         {
+            "FSType": 3,
+            "Group": 0,
+            "MinOdd": [
+               5
+            ],
+            "MaxOdd": [
+               5
+            ]
+         },
+         {
+            "FSType": 4,
+            "Group": 0,
+            "MinOdd": [
+               3
+            ],
+            "MaxOdd": [
+               3
+            ]
+         },
+         {
+            "FSType": 5,
+            "Group": 0,
+            "MinOdd": [
+               1
+            ],
+            "MaxOdd": [
+               1
+            ]
+         },
+         {
+            "FSType": 6,
+            "Group": 0,
+            "MinOdd": [
+               15
+            ],
+            "MaxOdd": [
+               15
+            ]
+         },
+         {
+            "FSType": 7,
+            "Group": 0,
+            "MinOdd": [
+               20
+            ],
+            "MaxOdd": [
+               20
+            ]
+         },
+         {
+            "FSType": 8,
+            "Group": 0,
+            "MinOdd": [
+               25
+            ],
+            "MaxOdd": [
+               25
+            ]
+         },
+         {
+            "FSType": 9,
+            "Group": 0,
+            "MinOdd": [
+               30
+            ],
+            "MaxOdd": [
+               30
+            ]
+         },
+         {
+            "FSType": 10,
+            "Group": 0,
+            "MinOdd": [
+               35
+            ],
+            "MaxOdd": [
+               35
+            ]
+         },
+         {
+            "FSType": 11,
+            "Group": 0,
+            "MinOdd": [
+               50
+            ],
+            "MaxOdd": [
+               50
+            ]
+         },
+         {
+            "FSType": 12,
+            "Group": 0,
+            "MinOdd": [
+               60
+            ],
+            "MaxOdd": [
+               60
+            ]
+         },
+         {
+            "FSType": 13,
+            "Group": 0,
+            "MinOdd": [
+               70
+            ],
+            "MaxOdd": [
+               70
+            ]
+         },
+         {
+            "FSType": 14,
+            "Group": 0,
+            "MinOdd": [
+               80
+            ],
+            "MaxOdd": [
+               80
+            ]
+         },
+         {
+            "FSType": 15,
+            "Group": 0,
+            "MinOdd": [
+               100
+            ],
+            "MaxOdd": [
+               100
+            ]
+         },
+         {
+            "FSType": 16,
+            "Group": 0,
+            "MinOdd": [
+               150
+            ],
+            "MaxOdd": [
+               150
+            ]
+         },
+         {
+            "FSType": 17,
+            "Group": 0,
+            "MinOdd": [
+               100
+            ],
+            "MaxOdd": [
+               300
+            ]
+         },
+         {
+            "FSType": 18,
+            "Group": 0,
+            "MinOdd": [
+               300
+            ],
+            "MaxOdd": [
+               500
+            ]
+         },
+         {
+            "FSType": 19,
+            "Group": 0,
+            "MinOdd": [
+               500
+            ],
+            "MaxOdd": [
+               800
+            ]
+         },
+         {
+            "FSType": 20,
+            "Group": 0,
+            "MinOdd": [
+               5
+            ],
+            "MaxOdd": [
+               100
+            ]
+         },
+         {
+            "FSType": 21,
+            "Group": 0,
+            "MinOdd": [
+               10
+            ],
+            "MaxOdd": [
+               200
+            ]
+         },
+         {
+            "FSType": 22,
+            "Group": 0,
+            "MinOdd": [
+               0
+            ],
+            "MaxOdd": [
+               0
+            ]
+         },
+         {
+            "FSType": 23,
+            "Group": 0,
+            "MinOdd": [
+               120
+            ],
+            "MaxOdd": [
+               120
+            ]
+         },
+         {
+            "FSType": 24,
+            "Group": 0,
+            "MinOdd": [
+               140
+            ],
+            "MaxOdd": [
+               140
+            ]
+         },
+         {
+            "FSType": 25,
+            "Group": 0,
+            "MinOdd": [
+               10,
+               21,
+               50,
+               101,
+               500
+            ],
+            "MaxOdd": [
+               20,
+               40,
+               100,
+               200,
+               500
+            ]
+         },
+         {
+            "FSType": 26,
+            "Group": 0,
+            "MinOdd": [
+               40
+            ],
+            "MaxOdd": [
+               40
+            ]
+         }
+      ],
+      "AllBet": [
+         1000,
+         3000,
+         5000
+      ]
+   }
+}

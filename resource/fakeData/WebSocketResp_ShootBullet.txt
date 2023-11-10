@@ -1,0 +1,9 @@
+{
+   "OpCode": "ShootBulletResult",
+   "Data": {
+      "PlayerSeat": 0,
+      "BulletID": 1,
+      "BulletIndex": 0,
+      "ShootAngle": 50.09
+   }
+}

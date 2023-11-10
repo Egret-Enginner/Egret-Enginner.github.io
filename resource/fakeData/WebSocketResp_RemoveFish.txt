@@ -1,0 +1,56 @@
+{
+   "OpCode": "UpdateFish",
+   "Data": {
+      "AddFish": [],
+      "DieOrRemoveFish": [
+         {
+            "FishID": "10",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "9",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "73",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "74",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "6",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "75",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "7",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         },
+         {
+            "FishID": "8",
+            "FSType": 2,
+            "HitDieRemove": true,
+            "Hit": false
+         }
+      ]
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "OpCode": "JoinRoom",
+   "ErrorCode": "Success",
+   "Data": {
+      "RoomId": "4bf98365-32f1-4744-8a71-fd957b5bf007",
+      "Seat": 0,
+      "PlayerInfo": [
+         {
+            "PlayerSeat": 0,
+            "PlayerName": "Test1167",
+            "PlayerBalance": 1689460,
+            "PlayerID": "e0ac525c-c91a-45bb-b33a-41bc1dfba50b"
+         }
+      ]
+   }
+}

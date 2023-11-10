@@ -1,0 +1,6 @@
+{
+   "OpCode": "ShowWave",
+   "Data": {
+      "WaveTime": 5
+   }
+}

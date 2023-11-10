@@ -1,0 +1,14 @@
+{
+    "UseWebSocket": "true",
+    "IP": "http://192.168.1.130:13001/api/main/Login",
+    "BetRecordDomain": "",
+    "Version": "1.0",
+    "ClientVersion": "",
+    "PackageName": "Fish_30013_MetalSlug",
+    "GameGroup": "MetalSlug",
+    "GameType": "",
+    "GameID": "",
+    "JackpotEnable": "false",
+    "AllowPortrait": "true",
+    "EnableMouseOver": "true"
+}

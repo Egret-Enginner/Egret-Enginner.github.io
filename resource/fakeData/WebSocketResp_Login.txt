@@ -1,0 +1,9 @@
+{
+   "OpCode": "Login",
+   "ErrorCode": "Success",
+   "Data": {
+      "PlayerName": "Test110061605224448",
+      "Token": "317391CA0D3C8FDAFCB9FF87FA3EAD3E",
+      "ReportUrl": "http://192.168.1.80:20000/HooHeyHow/system/"
+   }
+}

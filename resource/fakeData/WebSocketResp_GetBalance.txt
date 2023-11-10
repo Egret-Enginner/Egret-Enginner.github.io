@@ -1,0 +1,7 @@
+{
+    "OpCode": "GetBalanceResult",
+    "Data": {
+        "PlayerSeat": 0,
+        "PlayerBalance": 10000000
+    }
+}

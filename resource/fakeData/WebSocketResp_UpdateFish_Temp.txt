@@ -1,0 +1,45 @@
+{
+   "OpCode": "UpdateFish",
+   "Data": {
+      "AddFish": [
+         {
+            "FishID": "6",
+            "FSType": 33,
+            "X": 1343,
+            "Y": -282,
+            "Angle": 137.58188,
+            "Speed": 1.2,
+            "FSStatusIndex": 0,
+            "FSStatusNowFrameCoun": 0,
+            "lisFSStatus": [
+               {
+                  "iRunFrame": 0,
+                  "bRunFirst": true,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 0,
+                  "iRunFunType": 0
+               },
+               {
+                  "iRunFrame": 1500,
+                  "bRunFirst": false,
+                  "bEnable": true,
+                  "dSpeedChange": 0,
+                  "dAngleChange": 0,
+                  "dCircleStartX": 0,
+                  "dCircleStartY": 0,
+                  "dCirCleRadios": 0,
+                  "dSpeed": 1.2,
+                  "iRunFunType": 0
+               }
+            ]
+         }
+      ],
+      "DieOrRemoveFish": [],
+      "HitUpdateBalance": []
+   }
+}

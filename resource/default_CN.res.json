@@ -1,0 +1,592 @@
+{
+	"groups": [
+		{
+			"keys": "AppConfig_txt,Language_txt,GameConfig_txt,CustomConfig_txt,Language_Game_txt,MsgWindow_fui,MsgWindow_atlas0_png",
+			"name": "preload"
+		},
+		{
+			"keys": "Fish_105_tex_png,Fish_106_tex_png,Fish_107_tex_png,Fish_108_tex_png,Fish_109_tex_png,Fish_200_tex_png,Fish_201_tex_png,Fish_202_tex_png,Fish_203_tex_png,Fish_205_tex_png,Fish_30013_MetalSlug_fui,Fish_30013_MetalSlug_atlas0_png,Fish_30013_MetalSlug_atlas0_1_png,Fish_30013_MetalSlug_atlas0_2_png,Fish_30013_MetalSlug_atlas0_3_png,Fish_30013_MetalSlug_atlas7_png,Fish_30013_MetalSlug_atlas8_png,Fish_300_tex_png,Fish_301_tex_png,Fish_302_tex_png,Fish_303_tex_png,Fish_304_tex_png,Fish_305_tex_png,Fish_400_tex_png,Fish_401_tex_png,Fish_402_tex_png,Fish_500_tex_png,Fish_501_tex_png,Fish_503_tex_png,Fish_504_tex_png,Fish_505_tex_png,Fish_506_tex_png,Fish_507_tex_png,Laser02_tex_png,turret_tex_png,Fish_105_tex_json,Fish_105_ske_json,Fish_106_ske_json,Audio.res_json,Fish_106_tex_json,Fish_107_tex_json,Fish_107_ske_json,Fish_108_tex_json,Fish_108_ske_json,Fish_109_ske_json,Fish_109_tex_json,Fish_200_ske_json,Fish_200_tex_json,Fish_201_tex_json,Fish_201_ske_json,Fish_202_tex_json,Fish_202_ske_json,Fish_203_ske_json,Fish_205_ske_json,Fish_203_tex_json,Fish_205_tex_json,Fish_300_ske_json,Fish_301_ske_json,Fish_300_tex_json,Fish_301_tex_json,Fish_302_tex_json,Fish_304_ske_json,Fish_303_ske_json,Fish_302_ske_json,Fish_304_tex_json,Fish_305_ske_json,Fish_303_tex_json,Fish_305_tex_json,Fish_400_ske_json,Fish_401_ske_json,Fish_401_tex_json,Fish_400_tex_json,Fish_402_ske_json,Fish_500_ske_json,Fish_402_tex_json,Fish_501_ske_json,Fish_500_tex_json,Fish_503_ske_json,Fish_501_tex_json,Fish_504_ske_json,Fish_503_tex_json,Fish_504_tex_json,Fish_505_ske_json,Fish_505_tex_json,Fish_506_ske_json,Fish_506_tex_json,Fish_507_ske_json,Fish_507_tex_json,Laser02_ske_json,turret_tex_json,turret_ske_json,Laser02_tex_json",
+			"name": "game"
+		},
+		{
+			"keys": "Loading_fui,LoadingBG_jpg,Loading_atlas0_png",
+			"name": "loading"
+		},
+		{
+			"keys": "WebSocketResp_GetBalance_txt,WebSocketResp_JoinRoom_txt,WebSocketResp_Login_txt,WebSocketResp_ShowWave_txt,WebSocketResp_UpdateFish_txt,WebSocketResp_HitFish_txt,WebSocketResp_RemoveFish_txt,WebSocketResp_ShootBullet_txt,WebSocketResp_UpdateFish_Temp_txt,WebSocketResp_ShootSpecialBullet_txt,WebSocketResp_SpecialHitFish_txt,WebSocketResp_GetGameInitData_txt",
+			"name": "WebSocketFakeData"
+		}
+	],
+	"resources": [
+		{
+			"url": "preload/AppConfig.txt",
+			"type": "text",
+			"name": "AppConfig_txt"
+		},
+		{
+			"url": "preload/Language.txt",
+			"type": "text",
+			"name": "Language_txt"
+		},
+		{
+			"url": "preload/GameConfig.txt",
+			"type": "text",
+			"name": "GameConfig_txt"
+		},
+		{
+			"url": "preload/CustomConfig.txt",
+			"type": "text",
+			"name": "CustomConfig_txt"
+		},
+		{
+			"url": "preload/Language_Game.txt",
+			"type": "text",
+			"name": "Language_Game_txt"
+		},
+		{
+			"url": "loading/loading.fui",
+			"type": "bin",
+			"name": "Loading_fui"
+		},
+		{
+			"url": "loading/Loading_atlas0.png",
+			"type": "image",
+			"name": "Loading_atlas0_png"
+		},
+		{
+			"url": "loading/LoadingBG.jpg",
+			"type": "image",
+			"name": "LoadingBG_jpg"
+		},
+		{
+			"url": "fakeData/WebSocketResp_GetBalance.txt",
+			"type": "text",
+			"name": "WebSocketResp_GetBalance_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_JoinRoom.txt",
+			"type": "text",
+			"name": "WebSocketResp_JoinRoom_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_Login.txt",
+			"type": "text",
+			"name": "WebSocketResp_Login_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_ShowWave.txt",
+			"type": "text",
+			"name": "WebSocketResp_ShowWave_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_UpdateFish.txt",
+			"type": "text",
+			"name": "WebSocketResp_UpdateFish_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_HitFish.txt",
+			"type": "text",
+			"name": "WebSocketResp_HitFish_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_RemoveFish.txt",
+			"type": "text",
+			"name": "WebSocketResp_RemoveFish_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_ShootBullet.txt",
+			"type": "text",
+			"name": "WebSocketResp_ShootBullet_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_UpdateFish_Temp.txt",
+			"type": "text",
+			"name": "WebSocketResp_UpdateFish_Temp_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_ShootSpecialBullet.txt",
+			"type": "text",
+			"name": "WebSocketResp_ShootSpecialBullet_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_SpecialHitFish.txt",
+			"type": "text",
+			"name": "WebSocketResp_SpecialHitFish_txt"
+		},
+		{
+			"url": "fakeData/WebSocketResp_GetGameInitData.txt",
+			"type": "text",
+			"name": "WebSocketResp_GetGameInitData_txt"
+		},
+		{
+			"url": "preload/MsgWindow/MsgWindow.fui",
+			"type": "bin",
+			"name": "MsgWindow_fui"
+		},
+		{
+			"url": "preload/MsgWindow/MsgWindow_atlas0.png",
+			"type": "image",
+			"name": "MsgWindow_atlas0_png"
+		},
+		{
+			"url": "game/CN/Fish_105_tex.png",
+			"type": "image",
+			"name": "Fish_105_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_106_tex.png",
+			"type": "image",
+			"name": "Fish_106_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_107_tex.png",
+			"type": "image",
+			"name": "Fish_107_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_108_tex.png",
+			"type": "image",
+			"name": "Fish_108_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_109_tex.png",
+			"type": "image",
+			"name": "Fish_109_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_200_tex.png",
+			"type": "image",
+			"name": "Fish_200_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_201_tex.png",
+			"type": "image",
+			"name": "Fish_201_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_202_tex.png",
+			"type": "image",
+			"name": "Fish_202_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_203_tex.png",
+			"type": "image",
+			"name": "Fish_203_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_205_tex.png",
+			"type": "image",
+			"name": "Fish_205_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug.fui",
+			"type": "bin",
+			"name": "Fish_30013_MetalSlug_fui"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas0.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas0_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas0_1.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas0_1_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas0_2.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas0_2_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas0_3.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas0_3_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas7.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas7_png"
+		},
+		{
+			"url": "game/CN/Fish_30013_MetalSlug_atlas8.png",
+			"type": "image",
+			"name": "Fish_30013_MetalSlug_atlas8_png"
+		},
+		{
+			"url": "game/CN/Fish_300_tex.png",
+			"type": "image",
+			"name": "Fish_300_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_301_tex.png",
+			"type": "image",
+			"name": "Fish_301_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_302_tex.png",
+			"type": "image",
+			"name": "Fish_302_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_303_tex.png",
+			"type": "image",
+			"name": "Fish_303_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_304_tex.png",
+			"type": "image",
+			"name": "Fish_304_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_305_tex.png",
+			"type": "image",
+			"name": "Fish_305_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_400_tex.png",
+			"type": "image",
+			"name": "Fish_400_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_401_tex.png",
+			"type": "image",
+			"name": "Fish_401_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_402_tex.png",
+			"type": "image",
+			"name": "Fish_402_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_500_tex.png",
+			"type": "image",
+			"name": "Fish_500_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_501_tex.png",
+			"type": "image",
+			"name": "Fish_501_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_503_tex.png",
+			"type": "image",
+			"name": "Fish_503_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_504_tex.png",
+			"type": "image",
+			"name": "Fish_504_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_505_tex.png",
+			"type": "image",
+			"name": "Fish_505_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_506_tex.png",
+			"type": "image",
+			"name": "Fish_506_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_507_tex.png",
+			"type": "image",
+			"name": "Fish_507_tex_png"
+		},
+		{
+			"url": "game/CN/Laser02_tex.png",
+			"type": "image",
+			"name": "Laser02_tex_png"
+		},
+		{
+			"url": "game/CN/turret_tex.png",
+			"type": "image",
+			"name": "turret_tex_png"
+		},
+		{
+			"url": "game/CN/Fish_105_tex.json",
+			"type": "json",
+			"name": "Fish_105_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_105_ske.json",
+			"type": "json",
+			"name": "Fish_105_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_106_ske.json",
+			"type": "json",
+			"name": "Fish_106_ske_json"
+		},
+		{
+			"url": "game/CN/Audio.res.json",
+			"type": "json",
+			"name": "Audio.res_json"
+		},
+		{
+			"url": "game/CN/Fish_106_tex.json",
+			"type": "json",
+			"name": "Fish_106_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_107_tex.json",
+			"type": "json",
+			"name": "Fish_107_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_107_ske.json",
+			"type": "json",
+			"name": "Fish_107_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_108_tex.json",
+			"type": "json",
+			"name": "Fish_108_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_108_ske.json",
+			"type": "json",
+			"name": "Fish_108_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_109_ske.json",
+			"type": "json",
+			"name": "Fish_109_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_109_tex.json",
+			"type": "json",
+			"name": "Fish_109_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_200_ske.json",
+			"type": "json",
+			"name": "Fish_200_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_200_tex.json",
+			"type": "json",
+			"name": "Fish_200_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_201_tex.json",
+			"type": "json",
+			"name": "Fish_201_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_201_ske.json",
+			"type": "json",
+			"name": "Fish_201_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_202_tex.json",
+			"type": "json",
+			"name": "Fish_202_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_202_ske.json",
+			"type": "json",
+			"name": "Fish_202_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_203_ske.json",
+			"type": "json",
+			"name": "Fish_203_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_205_ske.json",
+			"type": "json",
+			"name": "Fish_205_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_203_tex.json",
+			"type": "json",
+			"name": "Fish_203_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_205_tex.json",
+			"type": "json",
+			"name": "Fish_205_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_300_ske.json",
+			"type": "json",
+			"name": "Fish_300_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_301_ske.json",
+			"type": "json",
+			"name": "Fish_301_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_300_tex.json",
+			"type": "json",
+			"name": "Fish_300_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_301_tex.json",
+			"type": "json",
+			"name": "Fish_301_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_302_tex.json",
+			"type": "json",
+			"name": "Fish_302_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_304_ske.json",
+			"type": "json",
+			"name": "Fish_304_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_303_ske.json",
+			"type": "json",
+			"name": "Fish_303_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_302_ske.json",
+			"type": "json",
+			"name": "Fish_302_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_304_tex.json",
+			"type": "json",
+			"name": "Fish_304_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_305_ske.json",
+			"type": "json",
+			"name": "Fish_305_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_303_tex.json",
+			"type": "json",
+			"name": "Fish_303_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_305_tex.json",
+			"type": "json",
+			"name": "Fish_305_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_400_ske.json",
+			"type": "json",
+			"name": "Fish_400_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_401_ske.json",
+			"type": "json",
+			"name": "Fish_401_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_401_tex.json",
+			"type": "json",
+			"name": "Fish_401_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_400_tex.json",
+			"type": "json",
+			"name": "Fish_400_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_402_ske.json",
+			"type": "json",
+			"name": "Fish_402_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_500_ske.json",
+			"type": "json",
+			"name": "Fish_500_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_402_tex.json",
+			"type": "json",
+			"name": "Fish_402_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_501_ske.json",
+			"type": "json",
+			"name": "Fish_501_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_500_tex.json",
+			"type": "json",
+			"name": "Fish_500_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_503_ske.json",
+			"type": "json",
+			"name": "Fish_503_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_501_tex.json",
+			"type": "json",
+			"name": "Fish_501_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_504_ske.json",
+			"type": "json",
+			"name": "Fish_504_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_503_tex.json",
+			"type": "json",
+			"name": "Fish_503_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_504_tex.json",
+			"type": "json",
+			"name": "Fish_504_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_505_ske.json",
+			"type": "json",
+			"name": "Fish_505_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_505_tex.json",
+			"type": "json",
+			"name": "Fish_505_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_506_ske.json",
+			"type": "json",
+			"name": "Fish_506_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_506_tex.json",
+			"type": "json",
+			"name": "Fish_506_tex_json"
+		},
+		{
+			"url": "game/CN/Fish_507_ske.json",
+			"type": "json",
+			"name": "Fish_507_ske_json"
+		},
+		{
+			"url": "game/CN/Fish_507_tex.json",
+			"type": "json",
+			"name": "Fish_507_tex_json"
+		},
+		{
+			"url": "game/CN/Laser02_ske.json",
+			"type": "json",
+			"name": "Laser02_ske_json"
+		},
+		{
+			"url": "game/CN/turret_tex.json",
+			"type": "json",
+			"name": "turret_tex_json"
+		},
+		{
+			"url": "game/CN/turret_ske.json",
+			"type": "json",
+			"name": "turret_ske_json"
+		},
+		{
+			"url": "game/CN/Laser02_tex.json",
+			"type": "json",
+			"name": "Laser02_tex_json"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+   "OpCode": "UpdateFish",
+   "Data": {
+      "AddFish": [],
+      "DieOrRemoveFish": [
+         {
+            "FishID": "10",
+            "Hit": true,
+            "BulletBet": 100,
+            "FSType": 35,
+            "WinOdd": 1,
+            "WinScore": 12300,
+            "HitSeat": 0,
+            "PlayerBalance": 10000000
+         }
+      ]
+   }
+}
